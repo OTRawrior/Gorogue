@@ -12,5 +12,7 @@ script = ExtResource("3_xgjam")
 
 [node name="Map" type="Node2D" parent="."]
 script = ExtResource("3_4vgyp")
+map_width = 60
+map_height = 32
 
 [node name="Entities" type="Node2D" parent="."]
