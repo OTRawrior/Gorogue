@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="EntityDefinition" load_steps=4 format=3 uid="uid://bo1mgxiyxpb4a"]
+
+[ext_resource type="Script" path="res://src/Entities/entity_definition.gd" id="1_et03n"]
+[ext_resource type="Texture2D" uid="uid://dae1jxbl2101q" path="res://assets/images/32rogues/rogues.png" id="2_n3sgk"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xcod6"]
+atlas = ExtResource("2_n3sgk")
+region = Rect2(160, 128, 32, 32)
+
+[resource]
+script = ExtResource("1_et03n")
+texture = SubResource("AtlasTexture_xcod6")
+color = Color(1, 1, 1, 1)
